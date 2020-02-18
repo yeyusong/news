@@ -1,0 +1,99 @@
+a:hover{
+	text-decoration: none;
+}
+img{
+	width: 150px;
+	height: 180px;
+	display: block;
+	max-width: 100%;
+	border-radius: 3px;
+	margin-bottom: 15px;
+}
+
+.navbar-brand{
+	background-image: url(img/logo.png);
+	width: 50px;
+	background-size: 70%;
+	/* 让logo不要重复 */
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.navbar-brand img{
+	width: 40px;
+	height: 30px;
+}
+.nav{
+	margin: 5px;
+	text-align: center;
+}
+.bar1 .list-group-item{
+	border: 0;
+	border-radius: 3px;
+	margin-bottom: 5px;
+}
+.bar1 .list-group-item.active{
+	background-color: red;
+}
+
+.title{
+	display: block;
+	color: #000000;
+	margin-top: 5px;
+	font-weight: bold;
+	font-size: 17px;
+	
+}
+.title:hover{
+	color: orangered;
+}
+.news-list-item{
+	margin-bottom: 15px;
+	border-bottom: 1px solid black;
+}
+.news-list-item .message{
+	margin-top: 10px;
+}
+.news-list-item .info{
+	color: #888;
+	font-size: 15px;
+	margin-top: 70px;
+}
+.news-list-item .info span{
+	margin: 5px;
+}
+.side-bar-card{
+	border-radius: 3px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 30px;
+	padding: 15px;
+	background: rgba(0,0,0,.1);
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.side-bar-card img{
+	
+	width: 100px;
+	height: 100px;
+}
+.xiatitle{
+	color: red;
+	font-size: 20px;
+}
+.side-bar-card .card-body .list .item:hover{
+	background:rgba(0,0,0,.1);
+}
+#toggle:checked ~ div{
+	display: block !important;
+}
+#toggle-lable{
+	display: inline-block;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	font-weight: normal;
+	display: none;
+}
+.visible-xs-inline:hover{
+	color: orangered;
+}
